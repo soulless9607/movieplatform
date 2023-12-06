@@ -1,0 +1,11 @@
+body {
+    background-color: #181a1b;
+    color: #fff;
+    min-height: 100%;
+}
+
+body h2 {
+    text-align: center;
+    padding: 1rem;
+}
+

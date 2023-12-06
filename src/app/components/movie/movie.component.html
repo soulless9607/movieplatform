@@ -1,0 +1,20 @@
+<div class="container">
+  <div class="row">
+
+
+    <div class="col-md-4" *ngFor="let movie of movies">
+      <div class="movie-thumbnail">
+        <img [src]="movie.thumbnail" alt="{{ movie.title }}">
+
+        <div class="movie-details">
+          <h3>{{ movie.title }}</h3>
+          <p>Release Date: {{ movie.releaseDate }}</p>
+          <!-- Other movie details can be added here -->
+          <button (click)="addToWatchlist(movie)">Add to Watchlist</button>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+</div>
